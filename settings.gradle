@@ -1,0 +1,4 @@
+rootProject.name = 'test-sonar'
+include 'test-server'
+include 'test-client'
+
