@@ -1,6 +1,4 @@
-.gradle
-.idea
-*.iml
-
-**/build/**
-gradle
+!/gradle/
+!/.gradle/
+!/.idea/
+!/test-sonar.iml

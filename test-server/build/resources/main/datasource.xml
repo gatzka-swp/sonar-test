@@ -1,0 +1,8 @@
+<!-- A sample xml file for demonstration -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<datasource>
+    <url>https://github.com/internalerror/sonar-test</url>
+    <username>database-user</username>
+    <password>averysecurepassword@12345</password>
+    <some-property password="supersecurepassword"/>
+</datasource>
