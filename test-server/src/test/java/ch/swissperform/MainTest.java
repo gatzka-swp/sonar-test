@@ -1,4 +1,4 @@
-package ch.swissperform;
+package net.internalerrorr;
 
 import org.junit.jupiter.api.Test;
 

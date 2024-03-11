@@ -4,7 +4,7 @@ plugins {
     id 'jacoco'
 }
 
-group = 'ch.swissperform'
+group = 'net.internalerror'
 version = '1.0-SNAPSHOT'
 
 repositories {
@@ -23,11 +23,10 @@ test {
 
 sonar {
     properties {
-        property "sonar.projectKey", "ch.swissperform:test-server"
-        property "sonar.organization", "swissperform"
+        property "sonar.projectKey", "net.internalerror:test-server"
+        property "sonar.organization", "internalerror"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
-        property "sonar.source", "src/main/java,src/main/resources"
     }
 }
 

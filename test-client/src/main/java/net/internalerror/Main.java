@@ -1,4 +1,4 @@
-package ch.swissperform;
+package net.internalerror;
 
 public class Main {
 
