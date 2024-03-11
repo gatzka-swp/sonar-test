@@ -1,0 +1,8 @@
+.gradle
+gradle
+.idea
+
+test-sonar.iml
+
+test-client/build/
+test-server/build/
