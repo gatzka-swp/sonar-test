@@ -27,6 +27,7 @@ sonar {
         property "sonar.organization", "swissperform"
         property "sonar.host.url", "https://sonarcloud.io"
         property "sonar.coverage.jacoco.xmlReportPaths", "build/reports/jacoco/test/jacocoTestReport.xml"
+        property "sonar.source", "src/main/java,src/main/resources"
     }
 }
 
